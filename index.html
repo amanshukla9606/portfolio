@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio@Aman</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="navbar">
+            <div class="logo">Portfolio.</div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+            <div class="button" id="callme">
+                <button><a href="#contact">Call Me <i class="fa fa-phone" aria-hidden="true"></i></a></button>
+            </div>
+            <div class="menubars">
+                <i class="fa fa-bars" id="menu"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section class="home" id="home">
+        <div class="home_content">
+            <div class="text-one">Hello,</div>
+            <div class="text-two">I'm Aman Shukla</div>
+            <div class="text-three">FullStack Developer</div>
+            <div class="text-four">Gwalior</div>
+            <div class="button">
+                <button><a href="#contact">Hire Me</a></button>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+        <div class="about_content">
+            <div class="title"><span>About Me</span></div>
+            <div class="about-details">
+                <div class="left">
+                    <img src="Images/5.jpg" alt="portfolio">
+                </div>
+                <div class="right">
+                    <h3>Designing My Pasion</h3>
+                    <p>I'm currently a student in Madhav institute of Technology and science doing bachelor's in Electronics and Communication and upskilling myself in the field of full-stack development and i have gaining expertise in NODE.js for backend and ReactJS for frontend development. I specialize in building exceptional digital experiences through responsive full-stack web applications.
+                    </p>
+
+                    <div class="button">
+                        <button onclick="location.href='resume-2.pdf'">Download Resume</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="service" id="service">
+        <div class="service_content heading">
+            <div class="mid_heading"><span>My Services</span></div>
+
+            <div class="service_cards">
+                <div class="box">
+                    <a href="#"><i class="fa fa-desktop"></i></a>
+                    <h2>Web Development</h2>
+                    <p>Continously working in the field of web development working with on demand latest Technology like node.js,strapi,mongodb etc</p>
+                </div>
+
+                <div class="box">
+                    <a href="#"><i class="fa fa-pencil"></i></a>
+                    <h2>Graphic Designing</h2>
+                    <p>A good knowledge of Graphic Designing.Designed many templates for my institute</p>
+                </div>
+
+                <div class="box">
+                    <a href="#"><i class="fa fa-desktop"></i></a>
+                    <h2>Content Writing</h2>
+                    <p>Good experience of content Writing</p>
+                </div>
+            </div>
+            <div class="service_cards">
+                <div class="box">
+                    <a href="#"><i class="fa fa-desktop"></i></a>
+                    <h2>MS Office</h2>
+                    <p>Good knowledge of excel,powerpoint,word etc</p>
+                </div>
+
+                <div class="box">
+                    <a href="#"><i class="fa fa-code"></i></a>
+                    <h2>UI/UX Designing</h2>
+                    <p>Learning And Working In This Field</p>
+                </div>
+
+                <div class="box">
+                    <a href="#"><i class="fa fa-mobile"></i></a>
+                    <h2>App Development</h2>
+                    <p>Continously working in the languages like java,python and their frameworks</p>
+                </div>
+            </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio_content heading">
+            <div class="mid_heading"><span>Portfolio/Projects</span></div>
+
+            <div id="portolio_cards">
+                <div class="imageCard">
+                    <h3>THE PORTFOLIO</h3>
+                    <img src="Images/p2.png" >
+                    <h3>THE NETFLIX CLONE</h3>
+                    <img src="Images/2p.png">
+                    <h3>THE SPOTIFY CLONE</h3>
+                    <img src="Images/3P.png">
+                </div>
+                <div class="imageCard">
+                    <h3>THE DYNAMIC WEBSITE</h3>
+                    <img src="Images/33p.png">
+
+                </div class="button">
+                <button id="project"><a href="https://github.com/amanshukla9606">View Projects</a></button>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="about_content heading">
+            <div class="title"><span>Contact Me</span></div>
+        </div>
+
+        <div class="contact_details">
+
+            <form action="https://script.google.com/macros/s/AKfycbz8jHqMmjkNVrNRKpCPorGSGgXyNhQDkM5UnNndAXwSewuivmBlz1fpcPbVD2acTyKrpw/exec" method="post" id="form">
+                <div class="input_flex">
+                    <input type="text" name="firstName" placeholder="First Name" required>
+                    <input type="text" name="lastName" placeholder="Last Name" required>
+                </div>
+                <div class="input_flex">
+                    <input type="number" name="phone" placeholder="Phone" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <textarea id="textarea"  name="message" placeholder="Write a message..."></textarea>
+                <div class="button">
+                    <button >Send Message</button>
+                </div>
+            </form>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright © 2023 ASCreations</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
